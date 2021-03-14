@@ -1,0 +1,96 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url("https://initiate.alphacoders.com/images/588/cropped-1600-900-588410.png?7373") ;
+    font-family: Arial, "HelveticaNeueLT Std";
+}
+    #container{
+        width: 1100px;
+        margin: 1px auto;
+        border: 5px solid black;
+    }
+    header{
+        background: rgba(0, 0, 0, 0.5);
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+        color: black;
+        border-bottom: 3px dashed black;
+        
+    }
+    nav{
+        background: rgba(0, 0, 0, 0.5);
+        height: 50px;
+        border-bottom: 3px dashed black ;
+        
+    }
+    nav ul li{
+        float: left;
+        list-style: none;
+        margin: 10px;
+        line-height: 30px;
+        text-align: center;
+        border: 30px;
+        
+    }
+    .clearfix {
+        clear: both;
+    }
+    
+    #content{
+        float: left;
+        width: calc(80% - 80px);
+        background: rgba(0, 0, 0, 0.5);
+        min-height: 500px;
+        padding: 30px;
+    }
+    .article{
+        color: black;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        border-bottom: 3px solid darkgreen;
+        padding-bottom: 20px;
+    }
+    .article:first-child{
+        border-top: 3px solid black;
+        padding-top: 20px;
+    }
+    
+    .article h2{
+        font-size: 40px;
+    }
+    aside h2{
+        font-size: 25px;
+    }
+    
+    aside{
+        float: left;
+        width: calc(20% - 3px);
+        background: rgba(0, 0, 0, 0.5);
+        min-height: 550px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        border-left: 3px dashed black;
+    }
+    footer{
+        background: rgba(255, 255, 255, 0.3);
+        color: black;
+        text-align: center;
+        line-height: 50px;
+        border-top: 5px solid black;
+        
+        
+    }
+    #content ul li{
+        font-size: 20px;
+    }
+    aside ul li{
+        font-size: 20px;
+    }
+    #content p{
+        font-size: 25px;
+    }
