@@ -17,7 +17,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Tabla de Todos los Empleados</h1>
+        <h1>Tabla de Todos los Usuarios</h1>
         <br>
         <table border="2" >
             <thead>
