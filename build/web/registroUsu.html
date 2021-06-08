@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style> 
+            body {background-color: lightgoldenrodyellow;}
+            h1 {font-family:'Odibee Sans', cursive; color:black;}
+            .container {; text-align: center; height: 300px;width: 100%; margin: 0 auto;}
+            .registroEmpleado {height: 80%; width: 50%; text-align:center;margin: 0 auto;}
+            .container3{padding: 1rem; height: 80%; width: 30%; text-align:center;margin: 0 auto;}
+            .tabla{display: table;}
+        </style>
+        <title>RegistroBen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container" ><img name="logo" height="100" src="https://www.cinemataztic.com/static/94c1fe03ea16bf27e1d966d98adb9c80/52ab1/ben-and-jerrys-logo.png">
+            <h1>Registro</h1>
+            <div class="registroEmpleado" >
+                <form method="post" name="registrousuario" action="saveUsu" class="tabla">
+                    <table border="2"  width="350" cellspacing="3" cellpadding="3" style="font-size: 10pt">
+                        <tr>
+                            <td>Nombre:</td>
+                            <td><input type="text" name="nombre" size="30" ></td>        
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input type="password" name="password" size="30" ></td>        
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email" size="30" ></td>        
+                        </tr>
+                        <tr>
+                            <td>Pais:</td>
+                            <td> <select name="pais"> 
+                                    <option>Mexico</option>
+                                    <option>EEUA</option>
+                                    <option>Canada</option>
+                                    <option>Oto pais</option>
+                                </select> </td>        
+                        </tr>
+                        <tr>
+                            <td colspan="2" ><input type="submit" 
+                                                    value="Registrar Usuario"></td>
+                        </tr>        
+                    </table>
+                </form>
+            </div>
+        </div> 
+        <div class="container3">Ya tienes sesion? <br><a href="index.html">Inicia sesion!</a></div>
+        <footer class="bg-dark p-3 mt-5">
+        <p class="text-center m-0 text-muted">Ben&Jerrys</p>
+    </footer>
+    </body>
+</html>
